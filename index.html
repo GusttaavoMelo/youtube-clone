@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="youtube-header">
+        <div class="header-left">
+            <div class="menu-icon">☰</div>
+            <div class="youtube-logo">
+                <span class="youtube-icon">▶️</span>
+                <span class="youtube-text">YouTube</span>
+            </div>
+        </div>
+        
+        <div class="header-center">
+            <input type="text" class="search-input" placeholder="Pesquisar">
+            <button class="search-button">🔍</button>
+        </div>
+        
+        <div class="header-right">
+            <button class="header-icon">📹</button>
+            <button class="header-icon">🔔</button>
+            <div class="user-avatar"></div>
+        </div>
+    </header>
+
+    <div class="container" style="margin-top: 60px;">
+        <div class="main-content">
+            <section class="video-section">
+                <div class="video-player">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQhttps://youtu.be/PKzLrZCbxBY?si=if_tzR6OTiujBq4T" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+                <h1 class="video-title">Como Criar um Clone da Página do YouTube com HTML e CSS</h1>
+                
+                <div class="video-actions">
+                    <div class="channel-info">
+                        <div class="channel-avatar"></div>
+                        <div>
+                            <div class="channel-name">Dev Tutorials</div>
+                            <div class="subscribers">1,2 mi de inscritos</div>
+                        </div>
+                        <button class="subscribe-btn">Inscrever-se</button>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <button class="action-btn">
+                            <span>👍</span>
+                            <span>125 mil</span>
+                        </button>
+                        <button class="action-btn">
+                            <span>👎</span>
+                            <span>Não gostei</span>
+                        </button>
+                        <button class="action-btn">
+                            <span>📤</span>
+                            <span>Compartilhar</span>
+                        </button>
+                        <button class="action-btn">
+                            <span>➕</span>
+                            <span>Salvar</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="video-description">
+                    <p>Neste tutorial, vamos criar um clone da página de vídeo do YouTube usando apenas HTML e CSS com Flexbox. Aprenda a estruturar o layout principal com o player à esquerda e vídeos recomendados à direita.</p>
+                    <p>🔔 Inscreva-se para mais tutoriais de desenvolvimento web!</p>
+                    <p>#HTML #CSS #Flexbox #YouTubeClone</p>
+                </div>
+                
+                <div class="comments-section">
+                    <h3 class="comments-title">3.487 comentários</h3>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar"></div>
+                        <div class="comment-content">
+                            <div class="comment-author">João Silva</div>
+                            <div class="comment-text">Ótimo tutorial! Muito bem explicado. Estou aprendendo muito com seus vídeos. Continue com o bom trabalho!</div>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar"></div>
+                        <div class="comment-content">
+                            <div class="comment-author">Maria Oliveira</div>
+                            <div class="comment-text">Adorei o vídeo! Você poderia fazer um sobre Grid Layout também?</div>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar"></div>
+                        <div class="comment-content">
+                            <div class="comment-author">Carlos Souza</div>
+                            <div class="comment-text">Muito útil para iniciantes como eu. Obrigado por compartilhar seu conhecimento!</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <aside class="recommendations">
+                <div class="recommendation">
+                    <div class="recommendation-thumbnail"></div>
+                    <div class="recommendation-info">
+                        <div class="recommendation-title">Aprenda CSS Grid Layout em 20 minutos</div>
+                        <div class="recommendation-channel">Dev Tutorials</div>
+                        <div class="recommendation-views">245 mil visualizações</div>
+                    </div>
+                </div>
+                
+                <div class="recommendation">
+                    <div class="recommendation-thumbnail"></div>
+                    <div class="recommendation-info">
+                        <div class="recommendation-title">Como criar um site responsivo do zero</div>
+                        <div class="recommendation-channel">Web Master</div>
+                        <div class="recommendation-views">1,1 mi de visualizações</div>
+                    </div>
+                </div>
+                
+                <div class="recommendation">
+                    <div class="recommendation-thumbnail"></div>
+                    <div class="recommendation-info">
+                        <div class="recommendation-title">JavaScript Moderno - ES6+ Features</div>
+                        <div class="recommendation-channel">Code Journey</div>
+                        <div class="recommendation-views">587 mil visualizações</div>
+                    </div>
+                </div>
+                
+                <div class="recommendation">
+                    <div class="recommendation-thumbnail"></div>
+                    <div class="recommendation-info">
+                        <div class="recommendation-title">Tailwind CSS Crash Course 2023</div>
+                        <div class="recommendation-channel">CSS Masters</div>
+                        <div class="recommendation-views">320 mil visualizações</div>
+                    </div>
+                </div>
+                
+                <div class="recommendation">
+                    <div class="recommendation-thumbnail"></div>
+                    <div class="recommendation-info">
+                        <div class="recommendation-title">React Hooks explicados para iniciantes</div>
+                        <div class="recommendation-channel">React Simplified</div>
+                        <div class="recommendation-views">412 mil visualizações</div>
+                    </div>
+                </div>
+                
+                <div class="recommendation">
+                    <div class="recommendation-thumbnail"></div>
+                    <div class="recommendation-info">
+                        <div class="recommendation-title">Como se tornar um desenvolvedor Front-end em 2023</div>
+                        <div class="recommendation-channel">Tech Careers</div>
+                        <div class="recommendation-views">1,8 mi de visualizações</div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
